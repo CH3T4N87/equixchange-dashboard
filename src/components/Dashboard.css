@@ -1,0 +1,12 @@
+.mobile-warning {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .dashboard-container {
+    display: block; /* Show dashboard by default */
+  }
+  
