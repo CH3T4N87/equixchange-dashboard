@@ -89,7 +89,7 @@ const activeMenuClass ="menu selected";
             </Link>
           </li>
           <li>
-          <Link style={{textDecoration:"none",color:"white",fontWeight:"600"}}  to={"http://localhost:3001/"} onClick={() => handleMenuClick(4) }>
+          <Link style={{textDecoration:"none",color:"white",fontWeight:"600"}}  to={"https://equixchange.vercel.app/"} onClick={() => handleMenuClick(4) }>
             <p>Home</p>
             </Link>
           </li>
