@@ -39,7 +39,7 @@ const Menu = () => {
         if (!user || !user.id) throw new Error("Invalid token structure");
   
         axios
-          .get(`http://localhost:3002/${user.id}`)
+          .get(`https://equixchange.onrender.com/${user.id}`)
           .then((res) => {
             setUserName(res.data[0].username || "User");
           })
